@@ -23,7 +23,7 @@ class Student():
     
     def show_grades(self):
         """显示成绩"""
-        print(self.name.title() + "的数学成绩为60分。")
+        print(self.name.title() + "的数学成绩为90分。")
         
         
 class Admin(Student):
@@ -35,5 +35,5 @@ class Admin(Student):
         
     def show_privilege(self):
         """显示权限"""
-        print(self.name.title() + "的权限为" + self.privilege)
+        print(self.name.title() + "的权限为" + self.privilege + "。")
 
